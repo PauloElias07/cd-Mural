@@ -3,7 +3,7 @@ services:
     build: .
     image: paulo0107/mural:latest
     ports:
-      - "234:5000"
+      - "7200:5000"
     environment:
       DB_HOST: db
       DB_PORT: "3306"
